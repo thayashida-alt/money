@@ -1,0 +1,67 @@
+/* ===== スマホ対応 ===== */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .month-label {
+    font-size: 14px;
+  }
+
+  .day-cell {
+    min-height: 55px;
+    font-size: 10px;
+  }
+
+  .day-number {
+    font-size: 11px;
+  }
+
+  .day-total {
+    font-size: 9px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row label {
+    width: 100%;
+  }
+
+  input[type="number"],
+  input[type="text"],
+  select {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px; /* iPhoneズーム防止 */
+  }
+
+  button {
+    min-height: 40px;
+    font-size: 14px;
+  }
+
+  .summary-row {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    flex: 1;
+  }
+}
